@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+.header-completo{
+    width: 100%;
+    height: 640px;
+    background-image: url('../img/optimus-prime.png');
+    background-size: cover;
+}
+.layer{
+    background-color: rgba(0,0,0,0.3);
+    position: absolute;
+    width: 100%;
+    height: 630px;
+    /* z-index: 1; */
+    display: inline-block;
+}
+.header{
+    height: 100px;
+    background: linear-gradient(black, transparent);
+    position: relative;
+    z-index: 2;
+}
+.logo{
+    padding: 15px 23px 15px 45px;
+    float: left;
+}
+.navegar{
+    float: left;
+}
+.navegar li{
+    display: inline-block;
+    padding: 23px 8px;
+}
+.navegar a{
+    text-decoration: none;
+    color: #E0E0E0;
+    font-weight: bold;
+    font-size: 13.7px;
+    transition: 0.4s;
+    display: inline-block;
+    z-index: 2;
+}
+.navegar a:hover{
+    color: #A8A8A8;
+}
+.icones{
+    float: right;
+    padding: 20px 75px;
+    font-size: 20px;
+    text-align: center;
+    width: 350px;
+    cursor: pointer;
+}
+.icones a{
+    text-decoration: none;
+    color: white;
+}
+.icones li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 12px;
+}
+#foto-perfil{
+    width: 35px;
+    height: 35px;
+    background: red;
+    background-image: url('../img/perfil.png');
+    background-size: cover;
+    border-radius: 5px;
+    float: right;
+}
+.fa-caret-down{
+    position: absolute;
+    top: 30px;
+    right: 58px;
+}
+.fade-out{
+    position: absolute;
+    top: 540px;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(transparent, #101010);
+}
+.tudo{
+    background-color: #101010;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.cartaz-descricao-filme{
+    position: absolute;
+    margin: 150px 50px 0;
+}
+.pre-titulo{
+    color: #C8C8C8;
+    width: 300px;
+    height: 33px;
+}
+.pre-titulo img{
+    float: left;
+    width: 20px;
+    height: 33px;
+}
+.pre-titulo p{
+    float: left;
+    padding:5px 0 0 10px;
+    font-weight: bold;
+}
+.titulo img{
+    width: 500px;
+    height: 150px;
+}
+#assistir{
+    width: 143px;
+    height: 40PX;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: white;
+}
+#assistir:hover{
+    background-color: #C8C8C8;
+}
+.fa-play{
+    padding-right: 10px;
+    font-size: 16px;
+}
+#informacoes{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(112,112,112,0.9);
+    margin-left: 5px;
+}
+#informacoes:hover{
+    background-color: rgba(80,80,80, 0.8);
+}
+.fa-info{
+    padding-right: 10px;
+    font-size: 16px;
+}
+.populares-netflix{
+    position: absolute;
+    top: 540px;
+    left: 0;
+    color: white;
+    width: 100%;
+}
+.populares-netflix p{
+    font-weight: 1000;
+    font-size: 18px;
+    padding: 0 0 10px 50px;
+}
+.populares-netflix-imagens{
+    width: 100%;
+}
+.populares-netflix-imagens img{
+    height: 140px;
+}
+.populares-netflix-imagens img:hover > .populares-netflix-imagens{
+    height: 200px;
+}
+.slick-list:{
+    width: 100%;
+    height: 140px;
+    margin: 0 auto;
+}
+.slick-slide{
+    width: 250px;
+}
+.slick-active{
+    width: 260px;
+}
+.slick-track img{
+    padding: 0 0 0 5px;
+    border-radius: 7px;
+}
+.slick-slider{
+    width: 100%;
+    margin-top: 10px;
+}
+.slick-prev{
+    border: 0;
+    font-size: 0;
+    width: 25px;
+    height: 51px;
+    background-color: transparent;
+    background-image: url('../img/anterior.png');
+    position: absolute;
+    left: 10px;
+    top: 35px;
+    z-index: 2;
+}
+.slick-next{
+    border: 0;
+    font-size: 0;
+    width: 26px;
+    height: 51px;
+    background-color: transparent;
+    background-image: url('../img/proximo.png');
+    position: absolute;
+    right: 10px;
+    top: 35px;
+    z-index: 2;
+}
+.originais-netflix{
+    color: white;
+    padding: 110px 0 0 0px;
+    width: 100%;
+}
+.originais-netflix p{
+    font-weight: bolder;
+    font-size: 18px;
+    padding-left: 50px;
+}
+.comedia p{
+    padding: 50px 0 0 50px;
+    color: white;
+    font-weight: bold;
+    font-size:18px;
+}
+.sitcom p{
+    padding: 20px 50px 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+.center{
+    width: 980px;
+    margin: 0 auto;
+}
+.footer{
+    background-color: #101010;
+    padding-bottom: 30px;
+}
+.footer a{
+    color: #989898;
+    width: 30%;
+    text-decoration: none;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.redes-sociais a{
+    padding-right: 20px;
+    font-size: 30px;
+}
+.links{
+    width: 100%;
+}
+.links a{
+    width: 24%;
+    display: inline-block;
+    font-size: 13px;
+    padding-bottom: 13px;
+}
+button{
+    background-color: transparent;
+    color: #989898;
+    border: 1px solid #989898;
+    width: 130px;
+    height: 30px;
+    margin-top: 15px;
+}
+button:hover{
+    color: white;
+}
